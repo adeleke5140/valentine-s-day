@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 import { map, lerp, clamp, getMousePos } from './utils';
 
-const images = Object.entries(import.meta.glob('../images/*.jpeg'));
+const images = Object.entries(import.meta.glob('../images/*.webp'));
 
 
 // track the mouse position
